@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             document.getElementById("logradouro"). value = data["logradouro"]
             document.getElementById("bairro"). value = data["logradouro"]
-            document.getElementById("cidade"). value = data["cidade"]
+            document.getElementById("cidade"). value = data["localidade"]
             document.getElementById("estado"). value = data["estado"]
 
         } catch (error) {
