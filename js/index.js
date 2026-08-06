@@ -14,6 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log(data);
 
             document.getElementById("logradouro"). value = data["logradouro"]
+            document.getElementById("bairro"). value = data["logradouro"]
+            document.getElementById("cidade"). value = data["cidade"]
+            document.getElementById("estado"). value = data["estado"]
 
         } catch (error) {
             console.error('Fetch error:', error);
